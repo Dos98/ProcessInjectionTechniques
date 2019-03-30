@@ -101,8 +101,7 @@ int injectIntoPID(int process)
 int main(int argc, char* argv)
 {
 	int pid;
-	int method;
-	puts("Inject into which PID?");
+	puts("Inject into which PID: ");
 	scanf_s("%u", &pid);
 	puts("Method used to attach thread is : NtCreateThread");
 	int result = injectIntoPID(pid);
