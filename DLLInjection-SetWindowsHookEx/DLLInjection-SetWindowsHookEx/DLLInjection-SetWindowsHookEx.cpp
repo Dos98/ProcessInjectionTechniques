@@ -63,7 +63,7 @@ int injectIntoPID(int process, char *strProcName)
 	}
 
 	// Your DLL needs to export the 'poc' function
-	HOOKPROC addr = (HOOKPROC)GetProcAddress(dll, "DllMain");
+	HOOKPROC addr = (HOOKPROC)GetProcAddress(dll, "poc");
 	if (addr == NULL)
 	{
 		printf(TEXT("[-] Error: The DLL exported function was not found.\n"));
