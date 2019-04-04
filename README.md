@@ -7,7 +7,7 @@ Method                 | 32 bits | 64 bits | todo
  CreateRemoteThread()  |    +    |    +    | done
  NtCreateThreadEx()    |    +    |    +    | done
  QueueUserAPC()        |    +    |    +    | done
- SetWindowsHookEx()    |    +    |    +    | 
+ SetWindowsHookEx()    |    +    |    +    | done
  RtlCreateUserThread() |    +    |    +    | done
- SetThreadContext()    |    +    |    +    |
- Reflective DLL        |    +    |    +    |
+ SetThreadContext()    |    +    |    +    | done
+ Reflective DLL        |    +    |    +    | ToDo
